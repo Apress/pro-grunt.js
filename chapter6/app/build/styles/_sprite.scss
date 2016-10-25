@@ -1,0 +1,207 @@
+/*
+SCSS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: $icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+$icon-home: x y offset_x offset_y width height total_width total_height image_path;
+*/
+$add-x: 0px;
+$add-y: 111px;
+$add-offset-x: 0px;
+$add-offset-y: -111px;
+$add-width: 76px;
+$add-height: 76px;
+$add-total-width: 76px;
+$add-total-height: 1741px;
+$add-image: '../img';
+$add: 0px 111px 0px -111px 76px 76px 76px 1741px '../img';
+$bit-x: 0px;
+$bit-y: 888px;
+$bit-offset-x: 0px;
+$bit-offset-y: -888px;
+$bit-width: 76px;
+$bit-height: 76px;
+$bit-total-width: 76px;
+$bit-total-height: 1741px;
+$bit-image: '../img';
+$bit: 0px 888px 0px -888px 76px 76px 76px 1741px '../img';
+$boolean-x: 0px;
+$boolean-y: 222px;
+$boolean-offset-x: 0px;
+$boolean-offset-y: -222px;
+$boolean-width: 76px;
+$boolean-height: 76px;
+$boolean-total-width: 76px;
+$boolean-total-height: 1741px;
+$boolean-image: '../img';
+$boolean: 0px 222px 0px -222px 76px 76px 76px 1741px '../img';
+$curve-x: 0px;
+$curve-y: 333px;
+$curve-offset-x: 0px;
+$curve-offset-y: -333px;
+$curve-width: 76px;
+$curve-height: 76px;
+$curve-total-width: 76px;
+$curve-total-height: 1741px;
+$curve-image: '../img';
+$curve: 0px 333px 0px -333px 76px 76px 76px 1741px '../img';
+$delete-x: 0px;
+$delete-y: 444px;
+$delete-offset-x: 0px;
+$delete-offset-y: -444px;
+$delete-width: 76px;
+$delete-height: 76px;
+$delete-total-width: 76px;
+$delete-total-height: 1741px;
+$delete-image: '../img';
+$delete: 0px 444px 0px -444px 76px 76px 76px 1741px '../img';
+$minus-x: 0px;
+$minus-y: 555px;
+$minus-offset-x: 0px;
+$minus-offset-y: -555px;
+$minus-width: 76px;
+$minus-height: 76px;
+$minus-total-width: 76px;
+$minus-total-height: 1741px;
+$minus-image: '../img';
+$minus: 0px 555px 0px -555px 76px 76px 76px 1741px '../img';
+$news-x: 0px;
+$news-y: 666px;
+$news-offset-x: 0px;
+$news-offset-y: -666px;
+$news-width: 76px;
+$news-height: 76px;
+$news-total-width: 76px;
+$news-total-height: 1741px;
+$news-image: '../img';
+$news: 0px 666px 0px -666px 76px 76px 76px 1741px '../img';
+$null-x: 0px;
+$null-y: 777px;
+$null-offset-x: 0px;
+$null-offset-y: -777px;
+$null-width: 76px;
+$null-height: 76px;
+$null-total-width: 76px;
+$null-total-height: 1741px;
+$null-image: '../img';
+$null: 0px 777px 0px -777px 76px 76px 76px 1741px '../img';
+$point-x: 0px;
+$point-y: 0px;
+$point-offset-x: 0px;
+$point-offset-y: 0px;
+$point-width: 76px;
+$point-height: 76px;
+$point-total-width: 76px;
+$point-total-height: 1741px;
+$point-image: '../img';
+$point: 0px 0px 0px 0px 76px 76px 76px 1741px '../img';
+$tie-x: 0px;
+$tie-y: 999px;
+$tie-offset-x: 0px;
+$tie-offset-y: -999px;
+$tie-width: 76px;
+$tie-height: 76px;
+$tie-total-width: 76px;
+$tie-total-height: 1741px;
+$tie-image: '../img';
+$tie: 0px 999px 0px -999px 76px 76px 76px 1741px '../img';
+$tux-x: 0px;
+$tux-y: 1110px;
+$tux-offset-x: 0px;
+$tux-offset-y: -1110px;
+$tux-width: 76px;
+$tux-height: 76px;
+$tux-total-width: 76px;
+$tux-total-height: 1741px;
+$tux-image: '../img';
+$tux: 0px 1110px 0px -1110px 76px 76px 76px 1741px '../img';
+$undo-x: 0px;
+$undo-y: 1221px;
+$undo-offset-x: 0px;
+$undo-offset-y: -1221px;
+$undo-width: 76px;
+$undo-height: 76px;
+$undo-total-width: 76px;
+$undo-total-height: 1741px;
+$undo-image: '../img';
+$undo: 0px 1221px 0px -1221px 76px 76px 76px 1741px '../img';
+$unlock-x: 0px;
+$unlock-y: 1332px;
+$unlock-offset-x: 0px;
+$unlock-offset-y: -1332px;
+$unlock-width: 76px;
+$unlock-height: 76px;
+$unlock-total-width: 76px;
+$unlock-total-height: 1741px;
+$unlock-image: '../img';
+$unlock: 0px 1332px 0px -1332px 76px 76px 76px 1741px '../img';
+$upload-x: 0px;
+$upload-y: 1443px;
+$upload-offset-x: 0px;
+$upload-offset-y: -1443px;
+$upload-width: 76px;
+$upload-height: 76px;
+$upload-total-width: 76px;
+$upload-total-height: 1741px;
+$upload-image: '../img';
+$upload: 0px 1443px 0px -1443px 76px 76px 76px 1741px '../img';
+$usb-x: 0px;
+$usb-y: 1554px;
+$usb-offset-x: 0px;
+$usb-offset-y: -1554px;
+$usb-width: 76px;
+$usb-height: 76px;
+$usb-total-width: 76px;
+$usb-total-height: 1741px;
+$usb-image: '../img';
+$usb: 0px 1554px 0px -1554px 76px 76px 76px 1741px '../img';
+$user-x: 0px;
+$user-y: 1665px;
+$user-offset-x: 0px;
+$user-offset-y: -1665px;
+$user-width: 76px;
+$user-height: 76px;
+$user-total-width: 76px;
+$user-total-height: 1741px;
+$user-image: '../img';
+$user: 0px 1665px 0px -1665px 76px 76px 76px 1741px '../img';
+
+/*
+The provided mixins are intended to be used with the array-like variables
+
+.icon-home {
+  @include sprite-width($icon-home);
+}
+
+.icon-email {
+  @include sprite($icon-email);
+}
+*/
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}

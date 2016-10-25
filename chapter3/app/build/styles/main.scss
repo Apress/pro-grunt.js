@@ -1,0 +1,14 @@
+$primary-color: #2a2a2a;
+$aside-color: #CCC;
+
+body {
+  color: $primary-color;
+}
+
+h1 {
+  transition: transform 1s;
+}
+
+.aside {
+  background: $aside-color;
+}

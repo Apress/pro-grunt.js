@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2014-8-11: Created.
+-->
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>
+Created by FontForge 20120731 at Mon Aug 11 05:41:25 2014
+ By James Cryer
+Created by James Cryer with FontForge 2.0 (http://fontforge.sf.net)
+</metadata>
+<defs>
+<font id="custom" horiz-adv-x="83" >
+  <font-face 
+    font-family="custom"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="512"
+    panose-1="2 0 6 3 0 0 0 0 0 0"
+    ascent="448"
+    descent="-64"
+    bbox="0 356 83 440"
+    underline-thickness="25.6"
+    underline-position="-51.2"
+    unicode-range="U+F101-F102"
+  />
+    <missing-glyph />
+    <glyph glyph-name="uniF101" unicode="&#xf101;" 
+d="M0 398c0 -27 15 -42 42 -42s41 15 41 42s-14 42 -41 42s-42 -15 -42 -42zM3 398c0 26 13 38 39 38s38 -12 38 -38s-12 -38 -38 -38s-39 12 -39 38zM2 398q0 40 40 40t40 -40t-40 -40t-40 40z" />
+    <glyph glyph-name="uniF102" unicode="&#xf102;" horiz-adv-x="0" 
+ />
+  </font>
+</defs></svg>

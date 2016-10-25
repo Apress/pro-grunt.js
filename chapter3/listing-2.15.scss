@@ -1,0 +1,9 @@
+.notice { 
+    border: 1px solid #FBCE2D; 
+    padding: 8px; 
+} 
+ 
+.alert { 
+    @extend .notice; 
+    border-color: #F0F0F0; 
+}

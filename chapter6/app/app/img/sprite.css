@@ -1,0 +1,12 @@
+.svg-circle {
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-image: url(sprite.svg);
+}
+
+.svg-tick {
+	background-position: 0 -170px;
+	background-repeat: no-repeat;
+	background-image: url(sprite.svg);
+}
+

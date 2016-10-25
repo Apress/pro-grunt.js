@@ -1,0 +1,16 @@
+{
+  "name": "guardian-grabber",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "request": "~2.34.0",
+    "nodeunit": "^0.8.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "James Cryer",
+  "license": "ISC"
+}

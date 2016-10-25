@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+  
+  <testsuite name="todos_test.js"
+             errors="3"
+             failures="0"
+             tests="3">
+    
+      
+      <testcase name="todo - collection_has_model_of_todo">
+        
+          <failure message="Cannot read property 'length' of undefined">
+            TypeError: Cannot read property 'length' of undefined
+    at Object.exports.todo.collection_has_model_of_todo (/Users/jamescryer/projects/progrunt-examples/chapter6/app/tests/collections/todos_test.js:13:38)
+    at /Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/lib/core.js:232:20
+    at /Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:168:13
+    at /Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:131:25
+    at /Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:165:17
+    at /Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:463:34
+    at Object.exports.todo.setUp (/Users/jamescryer/projects/progrunt-examples/chapter6/app/tests/collections/todos_test.js:9:5)
+    at /Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/lib/core.js:260:35
+    at /Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:458:21
+    at /Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:163:13
+    at iterate (/Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:123:13)
+    at async.forEachSeries (/Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:139:9)
+    at _asyncMap (/Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:162:9)
+    at Object.mapSeries (/Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:152:23)
+    at Object.async.series (/Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:456:19)
+    at Object.&lt;anonymous&gt; (/Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/lib/core.js:264:22)
+    at Object.&lt;anonymous&gt; (/Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/lib/core.js:228:19)
+    at Object.&lt;anonymous&gt; (/Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/lib/core.js:236:16)
+    at /Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/lib/core.js:236:16
+    at Object.exports.runTest (/Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/lib/core.js:70:9)
+    at /Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/lib/core.js:118:25
+    at /Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:513:13
+    at iterate (/Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:123:13)
+    at async.forEachSeries (/Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:139:9)
+    at _concat (/Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:512:9)
+    at Object.concatSeries (/Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:152:23)
+    at Object.exports.runSuite (/Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/lib/core.js:96:11)
+    at /Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/lib/core.js:125:21
+    at /Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:513:13
+    at iterate (/Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:123:13)
+    at async.forEachSeries (/Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:139:9)
+    at _concat (/Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:512:9)
+    at Object.concatSeries (/Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:152:23)
+    at Object.exports.runSuite (/Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/lib/core.js:96:11)
+    at Object.exports.runModule (/Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/lib/core.js:158:13)
+    at /Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/lib/nodeunit.js:75:21
+    at /Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:513:13
+    at iterate (/Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:123:13)
+    at async.forEachSeries (/Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:139:9)
+    at _concat (/Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:512:9)
+    at Object.concatSeries (/Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:152:23)
+    at /Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/lib/nodeunit.js:73:15
+    at /Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:518:13
+    at /Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:110:25
+    at /Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:515:17
+    at /Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/lib/utils.js:65:24
+    at Object.oncomplete (fs.js:107:15)
+          </failure>
+        
+      </testcase>
+    
+      
+      <testcase name="todo - collection_can_filter_active_items">
+        
+          <failure message="Cannot read property 'length' of undefined">
+            TypeError: Cannot read property 'length' of undefined
+    at Object.exports.todo.collection_can_filter_active_items (/Users/jamescryer/projects/progrunt-examples/chapter6/app/tests/collections/todos_test.js:18:38)
+    at /Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/lib/core.js:232:20
+    at /Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:168:13
+    at /Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:131:25
+    at /Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:165:17
+    at /Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:463:34
+    at Object.exports.todo.setUp (/Users/jamescryer/projects/progrunt-examples/chapter6/app/tests/collections/todos_test.js:9:5)
+    at /Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/lib/core.js:260:35
+    at /Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:458:21
+    at /Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:163:13
+    at iterate (/Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:123:13)
+    at async.forEachSeries (/Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:139:9)
+    at _asyncMap (/Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:162:9)
+    at Object.mapSeries (/Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:152:23)
+    at Object.async.series (/Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:456:19)
+    at Object.&lt;anonymous&gt; (/Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/lib/core.js:264:22)
+    at Object.&lt;anonymous&gt; (/Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/lib/core.js:228:19)
+    at Object.&lt;anonymous&gt; (/Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/lib/core.js:236:16)
+    at /Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/lib/core.js:236:16
+    at Object.exports.runTest (/Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/lib/core.js:70:9)
+    at /Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/lib/core.js:118:25
+    at /Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:513:13
+    at iterate (/Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:123:13)
+    at /Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:134:25
+    at /Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:515:17
+    at Object._onImmediate (/Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/lib/types.js:146:17)
+    at processImmediate [as _immediateCallback] (timers.js:345:15)
+          </failure>
+        
+      </testcase>
+    
+      
+      <testcase name="todo - collection_can_filter_expired_items">
+        
+          <failure message="Cannot read property 'filter' of undefined">
+            TypeError: Cannot read property 'filter' of undefined
+    at module.exports.Backbone.Collection.extend.expiredItems (/Users/jamescryer/projects/progrunt-examples/chapter6/app/app/js/collections/todos.js:23:40)
+    at Object.exports.todo.collection_can_filter_expired_items (/Users/jamescryer/projects/progrunt-examples/chapter6/app/tests/collections/todos_test.js:23:27)
+    at /Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/lib/core.js:232:20
+    at /Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:168:13
+    at /Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:131:25
+    at /Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:165:17
+    at /Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:463:34
+    at Object.exports.todo.setUp (/Users/jamescryer/projects/progrunt-examples/chapter6/app/tests/collections/todos_test.js:9:5)
+    at /Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/lib/core.js:260:35
+    at /Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:458:21
+    at /Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:163:13
+    at iterate (/Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:123:13)
+    at async.forEachSeries (/Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:139:9)
+    at _asyncMap (/Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:162:9)
+    at Object.mapSeries (/Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:152:23)
+    at Object.async.series (/Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:456:19)
+    at Object.&lt;anonymous&gt; (/Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/lib/core.js:264:22)
+    at Object.&lt;anonymous&gt; (/Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/lib/core.js:228:19)
+    at Object.&lt;anonymous&gt; (/Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/lib/core.js:236:16)
+    at /Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/lib/core.js:236:16
+    at Object.exports.runTest (/Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/lib/core.js:70:9)
+    at /Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/lib/core.js:118:25
+    at /Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:513:13
+    at iterate (/Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:123:13)
+    at /Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:134:25
+    at /Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/deps/async.js:515:17
+    at Object._onImmediate (/Users/jamescryer/projects/progrunt-examples/chapter6/app/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/lib/types.js:146:17)
+    at processImmediate [as _immediateCallback] (timers.js:345:15)
+          </failure>
+        
+      </testcase>
+    
+  </testsuite>
+

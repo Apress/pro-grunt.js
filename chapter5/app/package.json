@@ -1,0 +1,41 @@
+{
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^1.1.20140327",
+    "bower": "^1.3.3",
+    "grunt": "^0.4.5",
+    "grunt-bower-install": "^1.4.0",
+    "grunt-bower-requirejs": "^0.11.0",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-concat": "^0.4.0",
+    "grunt-contrib-copy": "^0.5.0",
+    "grunt-contrib-cssmin": "^0.9.0",
+    "grunt-contrib-handlebars": "^0.8.0",
+    "grunt-contrib-imagemin": "^0.7.1",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-mincss": "^0.3.2",
+    "grunt-contrib-nodeunit": "~0.2.2",
+    "grunt-contrib-requirejs": "^0.4.4",
+    "grunt-contrib-sass": "^0.7.3",
+    "grunt-contrib-uglify": "^0.4.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-jsdoc": "^0.5.4",
+    "grunt-modernizr": "^0.5.2",
+    "grunt-recess": "^0.6.1",
+    "grunt-responsive-images": "^0.1.3",
+    "grunt-rev": "^0.1.0",
+    "grunt-spritesmith": "^2.1.1",
+    "grunt-svg-sprite": "^0.3.2",
+    "grunt-svgmin": "^0.4.0",
+    "grunt-svgstore": "^0.3.1",
+    "grunt-uncss": "^0.3.3",
+    "grunt-usemin": "^2.1.0",
+    "jsdoc": "^3.3.0-alpha5",
+    "requirejs": "^2.1.11"
+  },
+  "dependencies": {
+    "imagemin-pngquant": "^0.1.2"
+  }
+}

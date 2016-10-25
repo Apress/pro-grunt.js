@@ -1,0 +1,21 @@
+{
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "grunt-contrib-jshint": "~0.7.2",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-nodeunit": "~0.2.2",
+    "grunt-contrib-sass": "^0.7.3",
+    "grunt-bower-install": "^1.4.0",
+    "grunt-recess": "^0.6.1",
+    "autoprefixer": "^1.1.20140327",
+    "grunt-contrib-mincss": "^0.3.2",
+    "grunt-contrib-cssmin": "^0.9.0",
+    "grunt-uncss": "^0.3.3",
+    "grunt-rev": "^0.1.0",
+    "grunt-usemin": "^2.1.0",
+    "grunt-contrib-copy": "^0.5.0"
+  }
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+  
+  <testsuite name="todo_test.js"
+             errors="0"
+             failures="0"
+             tests="5">
+    
+      
+      <testcase name="todo - item_has_a_title">
+        
+      </testcase>
+    
+      
+      <testcase name="todo - item_is_not_complete">
+        
+      </testcase>
+    
+      
+      <testcase name="todo - item_can_be_completed">
+        
+      </testcase>
+    
+      
+      <testcase name="todo - item_can_be_marked_as_incomplete">
+        
+      </testcase>
+    
+      
+      <testcase name="todo - item_has_expired">
+        
+      </testcase>
+    
+  </testsuite>
+
